@@ -1,0 +1,44 @@
+body{
+    background-repeat: no-repeat;
+    background-image:radial-gradient(rgba(238,44,22,0.5), rgba(236,215,28,0.5),url('images/14.jpg'));
+    background-size:cover;
+}
+
+h1{
+    text-align:center;
+    font-size:30px;
+    font-weight: 900;
+    text-decoration:underline;
+    color:black;
+}
+
+p{
+    font-size:15px;
+    line-height:6;
+}
+
+#av{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: underline;
+    color:aqua;
+}
+
+#av1{
+    text-transform: lowercase;
+    font-weight: 900;
+    text-decoration: underline;
+    color:blue;
+}
+
+#av2{
+    text-transform: lowercase;
+    font-weight: 900;
+    font-style:italic;
+    text-decoration: underline;
+    color:darkcyan;
+}
+
+h2{
+    font-size: 20px;
+}

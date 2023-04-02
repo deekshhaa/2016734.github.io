@@ -1,0 +1,29 @@
+<!-- write a js funtion to display value of range input field in a movable label -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31</title>
+</head>
+<body>
+    <form action="">
+        <input type="range"  onchange="value1()" >
+    </form>
+    <p id="output"></p>
+    <script>
+        function value1()
+        {
+            r=document.forms[0].elements[0].value;
+            block=document.getElementById("output");
+            p="&nbsp";
+            for(i=0;i<r/4;i++)
+            p=p+"&nbsp";
+                block.innerHTML=p+""+r;
+            
+        }
+        // value1();
+    </script>
+</body>
+</html>

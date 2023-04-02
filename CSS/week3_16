@@ -1,0 +1,7 @@
+<!--Create a webpage that displays your favourite quotations in a web page just above images. 
+You have to use border, height, width, margin, padding, outline properties of CSS. Also use 
+text and font properties to add effects in text to display quotations. -->
+
+p1{
+    border:2px solid tomato;
+}

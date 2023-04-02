@@ -1,0 +1,53 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+        .th {
+            height:100px;
+            width:100px;
+            }
+        #d {
+            height:100%;
+            width:100%;
+            
+            }
+        .container {
+                display:flex;
+                }
+        .icon {
+            display:flex;
+            width:10vw;
+            height:90vh;
+            flex-direction:column;
+            
+            }
+        .display {
+                width:90vw;
+                height:90vh;
+                }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <div class="icon"> 
+    <img src="file:///E:/images/1.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/2.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/3.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/4.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/5.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/6.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/7.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/8.jpg" class="th" onclick="change(this)">
+    <img src="file:///E:/images/9.jpg" class="th" onclick="change(this)">
+    </div>
+    <div class="display">
+    <img id="d" src="file:///E:/images/1.jpg">
+    </div>
+    </div>
+    <script>
+        function change(ob)
+        {
+        x = document.getElementById('d');
+        d.src=ob.src;
+        }
+    </script>
+
+</body></html>

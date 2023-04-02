@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<studentDetails>
+    <student rollnumber="1">
+        <fname>Aditi</fname>
+        <lname>Jaiswal</lname>
+        <class>B.Tech</class>
+    </student>
+    <student rollnumber="2">
+        <fname>xyz</fname>
+        <lname>XYZ</lname>
+        <class>M.Tech</class>
+    </student>
+    <student rollnumber="3">
+        <fname>abc</fname>
+        <lname>ABC</lname>
+        <class>MBA</class>
+    </student>
+</studentDetails>
